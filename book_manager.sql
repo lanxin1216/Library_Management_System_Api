@@ -11,7 +11,6 @@
  Target Server Version : 80019
  File Encoding         : 65001
 
- Date: 12/08/2023 19:47:09
 */
 
 SET NAMES utf8;
@@ -124,11 +123,11 @@ CREATE TABLE `borrow`  (
 -- ----------------------------
 -- Records of borrow
 -- ----------------------------
-INSERT INTO `borrow` VALUES (43, 15, 27, '2023-04-10 20:32:21', '2023-04-10 20:36:17');
-INSERT INTO `borrow` VALUES (44, 15, 31, '2023-04-10 20:32:29', NULL);
-INSERT INTO `borrow` VALUES (45, 15, 38, '2023-04-10 20:32:34', NULL);
-INSERT INTO `borrow` VALUES (46, 15, 43, '2023-04-10 20:32:36', NULL);
-INSERT INTO `borrow` VALUES (47, 15, 34, '2023-04-10 20:37:38', '2023-04-10 20:37:51');
+INSERT INTO `borrow` VALUES (43, 15, 27, '2023-10-15 20:32:21', '2023-10-16 20:36:17');
+INSERT INTO `borrow` VALUES (44, 15, 31, '2023-10-15 20:32:29', NULL);
+INSERT INTO `borrow` VALUES (45, 15, 38, '2023-10-15 20:32:34', NULL);
+INSERT INTO `borrow` VALUES (46, 15, 43, '2023-10-15 20:32:36', NULL);
+INSERT INTO `borrow` VALUES (47, 15, 34, '2023-10-15 20:37:38', '2023-10-15 20:37:51');
 
 -- ----------------------------
 -- Table structure for user
@@ -145,10 +144,6 @@ CREATE TABLE `user`  (
 -- ----------------------------
 -- Records of user
 -- ----------------------------
-INSERT INTO `user` VALUES (1, 'admin', '123456', 1);
-INSERT INTO `user` VALUES (2, '李明', '123456', 0);
-INSERT INTO `user` VALUES (11, 'zhang', '123456', 0);
-INSERT INTO `user` VALUES (13, 'zhao', '123456', 1);
-INSERT INTO `user` VALUES (15, 'user', '123456', 0);
+INSERT INTO `user` VALUES (1, 'test', '123456', 0);
 
 SET FOREIGN_KEY_CHECKS = 1;
